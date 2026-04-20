@@ -17,8 +17,8 @@
     <nav>
         <ul>
             <li><a href="#intro">Introduction</a></li>
-            <li><a href="#biography">Biography</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#biography">Biography</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -26,25 +26,62 @@
     <!-- Intro section -->
      <section id="intro">
         <h2>Introduction</h2>
-        <p>Welcome to my photography website! This year I explored different restaurants and discovered new flavours and experiences. This website highlights some of my favourite moments.</p>
+        <p>Welcome to my photography website! This year I explored different <strong>restaurants</strong> and discovered new flavours and experiences.This website highlights some of my <em>favorite moments</em> and memories.</p>
     </section>
-     <!-- Gallery section -->
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <p>A glimpse of some memorable food moments from the restaurants I visited.</p>
-            <div>
-            <a href="./Misono sushi.JPG" target="_blank"><img src="./Misono sushi.JPG" alt="A photo of sushi at Misono" width="300"></a>
-            <a href="./Misono ambience.JPG" target="_blank"><img src="./Misono ambience.JPG" alt="A photo of Misono ambience" width="300"></a>
-            <a href="./Mythos entrance.JPG" target="_blank"><img src="./Mythos entrance.JPG" alt="A photo of Mythos entrance" width="300"></a>
-            <a href="./Mythos food.JPG" target="_blank"><img src="./Mythos food.JPG" alt="A photo of food at Mythos" width="300"></a>
-            <a href="./gogol.JPG" target="_blank"><img src="./gogol.JPG" alt="A photo of gogol" width="300"></a>            
-            <a href="./Gogol ambience.JPG" target="_blank"><img src="./Gogol ambience.JPG" alt="A photo of Gogol ambience" width="300"></a>
-            <a href="./gogol food 2.JPG" target="_blank"><img src="./gogol food 2.JPG" alt="A photo of gogol food 2" width="300"></a>
-            <a href="./Karak and go.PNG" target="_blank"><img src="./Karak and go.PNG" alt="A photo of Karak and go" width="300"></a>
-           <a href="./karak and go (2).PNG" target="_blank"><img src="./karak and go (2).PNG" alt="A photo of Karak and go (2)" width="300"></a>
-            <a href="./karak&go.PNG" target="_blank"><img src="./karak&go.PNG" alt="A photo of Karak and go" width="300"></a>
+    <!-- Gallery section -->
+    <section id="gallery">
+    <h2>Gallery</h2>
+    <p>A glimpse of memorable food moments from my experiences.</p>
+
+    <section class="gallery-container">
+
+        <div class="card">
+            <img src="Misono sushi.JPG" alt="Sushi at Misono">
+            <h3>Misono Sushi</h3>
+            <p>A beautifully presented sushi platter with rich flavors.</p>
         </div>
-        </section>
+
+        <div class="card">
+            <img src="Misono ambience.JPG" alt="Misono ambience">
+            <h3>Misono Ambience</h3>
+            <p>A calm and elegant dining environment.</p>
+        </div>
+
+        <div class="card">
+            <img src="Mythos entrance.JPG" alt="Mythos entrance">
+            <h3>Mythos Entrance</h3>
+            <p>The welcoming entrance of a Mediterranean restaurant.</p>
+        </div>
+
+        <div class="card">
+            <img src="Mythos food.JPG" alt="Mythos food">
+            <h3>Mythos Cuisine</h3>
+            <p>Delicious dishes inspired by Greek flavors.</p>
+        </div>
+        <div class="card">
+            <img src="./gogol.JPG" alt="gogol food">
+            <h3>Gogol</h3>
+            <p>An Italian cuisine</p>
+        </div>
+        <div class="card">
+            <img src="./Gogol ambience.JPG" alt="Gogol anbience">
+            <p>Just felt like I was in Italy</p>
+        </div>
+
+    <div class="card">
+        <img src="./gogol food 2.JPG" alt="Gogol food 2">
+        <h3>Gogol</h3>
+        <p>Another delightful Italian dish.</p>
+    </div>
+
+        <div class="card">
+            <img src="./Karak and go.PNG" alt="karak and go">
+            <h3>Karak and Go</h3>
+            <p>The iced karak is to die for!!</p>
+        </div>
+
+    </div>
+</section>
         <!-- biography section -->
      <section id="biography">
         <h2> Biography</h2>
@@ -54,19 +91,14 @@
         <!-- Contact section -->
         <section id="contact">
             <h2>Contact me</h2>
-            <form>
-                <label for="name">Name:</label>
+        <form>
+            <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-            </form>
-            <form>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-        
-        </form>
-        <form>
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
                 <button type="submit">Send</button>
-            </form>
+        </form>
             </body>
 </html>
