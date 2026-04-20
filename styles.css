@@ -1,20 +1,22 @@
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:burlywood;
+    font-family: 'Great Vibes', cursive;
     margin: 0;
     padding: 0;
+    text-autospace: 0.5;
 }
 
 header {
-    background-color:burlywood;
-    display: flex;
+    background-color: pink;
     align-items: center;
+    display: flex;
     justify-content: center;
-    height: 100px;
-    padding: 20px;
-    text-align: center;
-   
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
+
+   
+
 
  h1 {
     margin: 0;
